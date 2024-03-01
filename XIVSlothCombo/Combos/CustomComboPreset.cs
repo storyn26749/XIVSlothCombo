@@ -3417,7 +3417,7 @@ namespace XIVSlothCombo.Combos
         SMN_ST_Egi_AstralFlow = 17048,
 
         [ConflictingCombos(SMN_Advanced_Combo)]
-        [ReplaceSkill(SMN.Ruin, SMN.Ruin2, SMN.Outburst, SMN.Tridisaster)]
+        [ReplaceSkill(SMN.Ruin, SMN.Ruin2, SMN.PreciousBrilliance, SMN.Tridisaster)]
         [CustomComboInfo("Simple Summoner Feature", "General purpose one-button combo.\nBursts on Bahamut phase.\nSummons Titan, Garuda, then Ifrit.\nSwiftcasts on Slipstream unless drifted.", SMN.JobID, -1, "", "")]
         SMN_Simple_Combo = 17041,
 
