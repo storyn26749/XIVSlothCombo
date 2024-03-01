@@ -394,7 +394,7 @@ namespace XIVSlothCombo.Combos.PvE
                 //CHECK_DEMIATTACK_USE_RESET
                 if (UsedDemiAttack && GetCooldownRemainingTime(AstralImpulse) < 1) UsedDemiAttack = false;  // Resets block to allow CHECK_DEMIATTACK_USE
 
-                if (actionID is Ruin or Ruin2 or Outburst or Tridisaster)
+                if (actionID is Ruin or Ruin2 or PreciousBrilliance)
                 {
                     if (IsEnabled(CustomComboPreset.SMN_Variant_Cure) && IsEnabled(Variant.VariantCure) && PlayerHealthPercentageHp() <= GetOptionValue(Config.SMN_VariantCure))
                         return Variant.VariantCure;
