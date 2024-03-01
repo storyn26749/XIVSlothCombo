@@ -374,7 +374,7 @@ namespace XIVSlothCombo.Combos.PvE
                 var burstDelay = PluginConfiguration.GetCustomIntValue(Config.SMN_Burst_Delay);
                 var inOpener = CombatEngageDuration().TotalSeconds < 40;
                 var STCombo = actionID is Ruin or Ruin2;
-                var AoECombo = actionID is Outburst or Tridisaster;
+                var AoECombo = actionID is PreciousBrilliance;
 
                 if (WasLastAction(OriginalHook(Aethercharge))) DemiAttackCount = 0;    // Resets counter
 
