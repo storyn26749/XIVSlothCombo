@@ -261,7 +261,7 @@ namespace XIVSlothCombo.Combos.PvE
                     ChaosDoTDebuff = FindTargetEffect(Debuffs.ChaoticSpring);
                 else ChaosDoTDebuff = FindTargetEffect(Debuffs.ChaosThrust);
 
-                if (actionID is TrueThrust)
+                if (actionID is Jump)
                 {
                     if (IsEnabled(CustomComboPreset.DRG_Variant_Cure) &&
                         IsEnabled(Variant.VariantCure) &&
