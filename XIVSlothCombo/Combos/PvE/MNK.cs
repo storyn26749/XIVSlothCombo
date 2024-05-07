@@ -301,7 +301,7 @@ namespace XIVSlothCombo.Combos.PvE
 
             protected override uint Invoke(uint actionID, uint lastComboMove, float comboTime, byte level)
             {
-                if (actionID == Bootshine)
+                if (actionID == Meditation)
                 {
                     if (HasEffect(Buffs.RaptorForm) && level >= Levels.TrueStrike)
                     {
